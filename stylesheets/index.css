@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0; border: none; box-sizing: border-box;}
+ul,li{list-style-type: none;}
+body{
+	width: 100vw;
+	font-size: 1.45vw;
+	font-family: 'Amatic SC', cursive;
+  	background-color: turquoise;
+}
+.menu, .main{
+	float: left;
+}
+.main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/************* MENU *************/
+.menu{
+	color: white;
+	font-size: 200%;
+	width: 20vw;
+	height: 200vh;
+	padding: 2%;
+	background-color: indigo;
+}
+.menu a{
+	color: deeppink;
+}
+.menu a:hover{
+	color: fuchsia;
+}
+/************* MAIN *************/
+.main{
+	width: 80vw;
+}
+/************* INDEX *************/
+#xmas, #animals{
+	color: purple;
+	font-size: 400%;
+	text-align: center;
+}
+#xmas{
+	background-color:lightseagreen;
+}
+img{
+	width: 24%;
+}
+#polarbear{
+	width: 18%;
+}
+#penguin{
+	width: 30%;
+}
+/************* PAGES *************/
+#bears, #penguins, #snowtigers{
+	font-family: 'Delius Unicase', cursive;
+	min-height: 100vh;
+  	background-color: darkorchid;
+}
+#bears h1, #penguins h1, #snowtigers h1{
+	color: darkturquoise;
+	text-align: center;
+	font-size: 300%;
+}
+/************* BEARS *************/
+#bears figure{
+	width: 20%;
+	padding: 2%;
+	float: left;
+}
+#bears img, #bears figcaption{
+	width: 100%;
+}
+#bears img{
+	border: 4px ridge pink;
+}
+#bears figcaption{
+	color: pink;
+}
+#bears p{
+	clear: both;
+	color: cyan;
+	font-size: 200%;
+	padding-left: 2%;
+}
+/************* PENGUINS *************/
+#penguins img{
+	width: 96%;
+	padding: 2%;
+}
+/************* SNOWTIGERS *************/
+#snowtigers h1{
+	padding: 3%;
+}
+#snowtigers #snowtiger_img1{
+	width: 30%;
+}
